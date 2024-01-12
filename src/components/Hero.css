@@ -1,0 +1,14 @@
+@font-face {
+    font-family:"Med" ;
+    src:local("Allura-Regular"),
+     url("../Samarkan\ Normal.ttf") format("truetype");
+  }
+#heromain{
+    margin-top: -12.3%;
+}
+#retname,#retname2{
+font-family: Med;
+margin-left: 40%;
+
+
+}

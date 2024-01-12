@@ -1,0 +1,68 @@
+.about-us-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+  
+  .about-us-content {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+    text-align: justify;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ceo-container {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .paragraph {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .ceo-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ceo-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .ceo-info {
+    flex: 1;
+  }
+  
+  .ceo-info h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ceo-description {
+    color: #555;
+    font-size: 16px;
+  }

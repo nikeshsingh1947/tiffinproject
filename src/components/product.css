@@ -1,0 +1,63 @@
+#main-cont{
+   margin: auto;
+   text-align: center;
+   background-image: url("./angle.png"),url("./angle1.png");
+   
+   background-size: cover;
+   background-position: top left,bottom right;
+   
+}
+#heading-main{
+    margin: auto;
+    text-align: center;
+    color: rgb(234, 152, 0);
+}
+
+
+#prod-image-cont{
+    margin: auto;
+    width: 20%;
+    margin-top: 40px;
+}
+#prod-image-cont>img{
+    margin: auto;
+    width: 100%;
+}
+#prod-name{
+    color: rgba(255, 166, 0, 0.991);
+}
+#qty-cont{
+    margin: auto;
+    display: flex;
+   text-align: center;
+   margin-left: 43%;
+}
+.btnqty{
+   border-radius: 5px;
+   font-size: 32px;
+   background: rgb(106, 106, 255);
+   width:30px;
+   margin: 10px;
+   margin-top: -10px;
+}
+#btnback{
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    margin: 5px;
+    padding: 5px;
+}
+#btnaddtocart{
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 7%;
+}
+/* @media screen and (min-width: 800px)  {
+  #prod-cont{
+    display: flex;
+  }
+
+} */

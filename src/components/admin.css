@@ -1,0 +1,36 @@
+main-container{
+    background-image: linear-gradient(147deg, #2D3047 0%, #eae6e5 74%);
+}
+tr th{
+    border: 2px solid rgb(0, 255, 234);
+    background-color: rgb(255, 238, 49);    
+    color: rgba(255, 0, 0, 0.943);
+}
+tr td{
+    border: 2px solid rgb(0, 254, 242);
+    background-color: rgb(246, 255, 0);
+    color: rgb(0, 13, 191);
+}
+h2{
+    color: rgb(255, 123, 0);
+    margin: auto;
+    text-align: center;
+}
+table{
+    text-align: center;
+    align-content: center;
+}
+.tdinnerdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.qty{
+    margin-left: 10px;
+    color: black;
+}
+#admin-lgt{
+    padding: 5px;
+    background: orangered;
+    border-radius: 7px;
+    margin: 10px;
+}
